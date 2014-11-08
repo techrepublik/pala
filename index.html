@@ -104,14 +104,27 @@
 					<div class="panel-body">
 						<form class="form-horizontal">
 							<div class="form-group">
-								<input type="text" name="check_in" id="check_in" class="jquery-ui-datepicker form-control" placeholder="Check-in date" />
+								<input type="text" name="check_in" id="check_in" class="jquery-ui-datepicker form-control" placeholder="Click to set Check-in date" />
 							</div>
 							<div class="form-group">
-								<input type="text" name="check_out" id="check_out" class="jquery-ui-datepicker form-control" placeholder="Check-out date" />
+								<input type="text" name="check_out" id="check_out" class="jquery-ui-datepicker form-control" placeholder="Click to set Check-out date" />
 							</div>
+							<div class="form-group col col-sm-6">
+								<div class="row">
+									<input type="text" name="single_room" id="single_room" class="form-control" placeholder="Single rooms" />
+								</div>
+							</div>
+							<div class="form-group col col-sm-6 pull-right">
+								<div class="row">
+									<input type="text" name="double_room" id="double_room" class="form-control" placeholder="Double rooms" />
+								</div>
+							</div>
+
+							<br/>
+							<hr/>
 							<div class="form-group">
 								<button type="button" class="btn btn-default btn-sm pull-right" data-toggle="modal" data-target="#booking">
-									Book
+									Book Me
 								</button>
 							</div>
 						</form>
