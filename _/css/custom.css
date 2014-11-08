@@ -18,3 +18,8 @@
 	height: 100px;
 	padding: 0 10px;
 }
+
+.ui-datepicker-month,
+.ui-datepicker-year {
+	color: black;
+}

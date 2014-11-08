@@ -314,7 +314,10 @@
 			$('#thumbnail-full').find('img').prop('src', src);
 			$('#thumbnail-full').modal('show');
 		});
-		$('.jquery-ui-datepicker').datepicker();
+		$('.jquery-ui-datepicker').datepicker({
+			changeMonth: true,
+			changeYear: true
+		});
 	</script>
 </body>
 </html>
