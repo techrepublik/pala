@@ -1,0 +1,20 @@
+#booking-panel {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	z-index: 100;
+	margin: 0;
+	opacity: 0.50;
+	filter: alpha(opacity=50);
+}
+
+#booking-panel:hover {
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+#booking-panel form {
+	width: 400px;
+	height: 100px;
+	padding: 0 10px;
+}
