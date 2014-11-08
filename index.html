@@ -100,7 +100,7 @@
 					<span class="glyphicon glyphicon-chevron-right"></span>
 					<span class="sr-only">Next</span>
 				</a>
-				<div id="booking-panel" class="panel panel-default" style="display:none">
+				<div id="booking-panel" class="panel panel-default">
 					<div class="panel-body">
 						<form class="form-horizontal">
 							<div class="form-group">
@@ -110,16 +110,13 @@
 								<input type="text" name="check_out" id="check_out" class="jquery-ui-datepicker form-control" placeholder="Check-out date" />
 							</div>
 							<div class="form-group">
-								<button type="button" class="btn btn-default btn-sm pull-left" data-toggle="modal" data-target="#booking">
-									<span class="glyphicon glyphicon-search"></span> Search
+								<button type="button" class="btn btn-default btn-sm pull-right" data-toggle="modal" data-target="#booking">
+									Book
 								</button>
 							</div>
 						</form>
 					</div>
 				</div>
-				<button title="Book now!" id="booking-panel-toggle" class="btn btn-success btn-xs">
-					<span class="glyphicon glyphicon-open"></span> Book Now!
-				</button>
 			</div>
 		</div>
 		<div class="container" style="margin-top: 50px">
@@ -265,7 +262,7 @@
 		</div>
 	</div>
 	<div class="modal fade" id="booking">
-		<div class="modal-dialog modal-lg">
+		<div class="modal-dialog">
 			<div class="modal-content">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -317,20 +314,6 @@
 			$('#thumbnail-full').find('img').prop('src', src);
 			$('#thumbnail-full').modal('show');
 		});
-
-		$('#booking-panel-toggle').on('click', function(){
-			var toggle_btn = $(this);
-			$('#booking-panel').toggle('fast', function(){
-				if(toggle_btn.find('span').hasClass('glyphicon-open')){
-					toggle_btn.html('<span class="glyphicon glyphicon-save"></span>');
-					toggle_btn.prop('class', 'btn btn-warning btn-xs');
-				} else {
-					toggle_btn.html('<span class="glyphicon glyphicon-open"></span> Book Now!');
-					toggle_btn.prop('class', 'btn btn-success btn-xs');
-				}
-			});
-		});
-
 		$('.jquery-ui-datepicker').datepicker({
 			changeMonth: true,
 			changeYear: true

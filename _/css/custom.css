@@ -1,7 +1,7 @@
 #booking-panel {
-	position: fixed;
-	right: 0;
-	bottom: 0;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
 	z-index: 100;
 	margin: 0;
 	opacity: 0.50;
@@ -17,13 +17,6 @@
 	width: 400px;
 	height: 100px;
 	padding: 0 10px;
-}
-
-#booking-panel-toggle {
-	position: fixed;
-	right: 0;
-	bottom: 0;
-	z-index: 100;
 }
 
 .ui-datepicker-month,
