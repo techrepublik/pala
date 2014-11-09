@@ -408,7 +408,8 @@
 
 		$('.jquery-ui-datepicker').datepicker({
 			changeMonth: true,
-			changeYear: true
+			changeYear: true,
+			dateFormat: 'd MM, yy'
 		});
 
 		$('.arrival').find('button').click(function () {
@@ -420,6 +421,9 @@
 	    });
 
 	    $('#book_me').on('click', function(){
+	    	if($('#arrival').val().length > 0 && $('#departure').val().length > 0){
+	    		$('#booking').find('.modal-title').html($('#arrival').val() + ' - ' + $('#departure').val());
+	    	}
 	    	var double_max = parseInt($('.double_room_row').find('.remaining_rooms').html());
 	    	$('.double_room_row').find('select').html('');
 	    	for (i = 0; i <= double_max; i++) {
