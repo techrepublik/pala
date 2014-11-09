@@ -116,7 +116,7 @@
 							<div class="form-group col col-sm-6 pull-right">
 								<div class="row input-group input-group-sm">
 									<input type="text" name="departure" id="departure" class="jquery-ui-datepicker form-control" placeholder="Set departure date" />
-									<span class="arrival input-group-btn">
+									<span class="departure input-group-btn">
 										<button class="btn btn-default" type="button">
 											<span class="glyphicon glyphicon-calendar"></span>
 										</button>
@@ -365,6 +365,12 @@
 			changeMonth: true,
 			changeYear: true
 		});
+		$('.arrival').find('button').click(function () {
+			$('#arrival').datepicker('show');
+	    });
+	    $('.departure').find('button').click(function () {
+			$('#departure').datepicker('show');
+	    });
 		$('a[href*=#]:not([href=#])').click(function() {
 			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
 				var target = $(this.hash);
