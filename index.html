@@ -107,7 +107,9 @@
 								<div class="row input-group input-group-sm">
 									<input type="text" name="arrival" id="arrival" class="jquery-ui-datepicker form-control" placeholder="Set Arrival date" />
 									<span class="arrival input-group-btn ">
-										<button class="btn btn-default glyphicon glyphicon-calendar" type="button"></button>
+										<button class="btn btn-default" type="button">
+											<span class="glyphicon glyphicon-calendar"></span>
+										</button>
 									</span>
 								</div>
 							</div>
@@ -115,7 +117,9 @@
 								<div class="row input-group input-group-sm">
 									<input type="text" name="departure" id="departure" class="jquery-ui-datepicker form-control" placeholder="Set departure date" />
 									<span class="arrival input-group-btn">
-										<button class="btn btn-default glyphicon glyphicon-calendar" type="button"></button>
+										<button class="btn btn-default" type="button">
+											<span class="glyphicon glyphicon-calendar"></span>
+										</button>
 									</span>
 								</div>
 							</div>
@@ -360,6 +364,18 @@
 		$('.jquery-ui-datepicker').datepicker({
 			changeMonth: true,
 			changeYear: true
+		});
+		$('a[href*=#]:not([href=#])').click(function() {
+			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+				if (target.length) {
+					$('html,body').animate({
+						scrollTop: target.offset().top
+					}, 1000);
+					return false;
+				}
+			}
 		});
 		/* $(document).ready(function(){
 		  $('.arrival').click(function(){
