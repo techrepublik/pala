@@ -18,6 +18,9 @@
 	height: 100px;
 	padding: 0 10px;
 }
+.body-bg{
+	background: #f8f8f8;
+}
 
 .ui-datepicker-month,
 .ui-datepicker-year {
@@ -34,5 +37,8 @@ ul.unstyled, ol.unstyled {
 	background: #cccccc;
 }
 .div-bg{
-	background: #66ff66;
+	background: #66cc66;
+}
+.font-color-wh{
+	color: #FFFFFF;
 }
