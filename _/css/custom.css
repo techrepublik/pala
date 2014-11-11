@@ -17,6 +17,10 @@ header.container {
 	opacity: 0.5;
 }
 
+header.container:hover {
+	opacity: 1;
+}
+
 .slide_wrapper .carousel-inner {
 	background-color: black;
 }
