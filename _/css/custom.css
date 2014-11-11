@@ -2,7 +2,6 @@
 	margin-bottom: 0 !important;
 }
 
-.navbar-header,
 .main-nav {
 	margin: 15px 0;
 }
@@ -102,10 +101,15 @@ ul.unstyled, ol.unstyled {
 .navbar-brand {
 	float: left;
 	height: 50px;
-	padding: 1px 1px;
+	padding: 1px;
 	font-size: 18px;
-	line-height: 20px;
 }
+
+.navbar-brand > img {
+	height: 100%;
+	width: auto;
+}
+
 .p-format{
 	text-align: justify;
 }
