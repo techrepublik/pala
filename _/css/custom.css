@@ -1,3 +1,46 @@
+.no-margin-btm {
+	margin-bottom: 0 !important;
+}
+
+.navbar-header,
+.main-nav {
+	margin: 15px 0;
+}
+
+header.container {
+	position: absolute;
+	z-index: 100;
+	padding: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	opacity: 0.5;
+}
+
+.slide_wrapper .carousel-inner {
+	background-color: black;
+}
+
+.slide_wrapper .item {
+	height: 93vh;
+	overflow: hidden;
+}
+
+.slide_wrapper .item > img {
+	float: none;
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+}
+
+.slide_wrapper .carousel-caption {
+	width: 400px;
+	text-align: left;
+	left:8%;
+	bottom:10px;
+	padding-bottom:10px;
+}
+
 #booking-panel {
 	position: absolute;
 	right: 100px;
