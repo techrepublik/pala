@@ -8,10 +8,15 @@
 		<link rel="stylesheet" type="text/css" href="_/css/custom.css">
 	</head>
 <body id="home" class="body-bg">
-	<nav id="social_links" class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0 !important">
+	<nav id="social_links" class="navbar navbar-default navbar-static-top no-margin-btm" role="navigation">
 		<div class="container">
+<<<<<<< HEAD
 			<div class="navbar-header" style="margin: 15px 0;">
 				<a href="mailto:info@julietaspensionhouse.com.ph" title="Email" style="color: #66cc66;"><i class="fa fa-envelope"></i> info@julietaspensionhouse.com.ph</a>
+=======
+			<div class="navbar-header">
+				<a href="mailto:info@julietaspensionhouse.com.ph" title="Email"><i class="fa fa-envelope"></i> info@julietaspensionhouse.com.ph</a>
+>>>>>>> origin/master
 				&nbsp; / &nbsp;
 				<span><i class="fa fa-fax"></i> (048) 433 - 0374</span>
 			</div>
@@ -23,9 +28,10 @@
 			</ul>
 		</div>
 	</nav>
-	<section style="text-align: center">
-		<header class="container" style="position: absolute; z-index: 100; padding: 0; left: 0; right: 0; margin: 0 auto; opacity: 0.5;">
-			<nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin: 15px 0">
+	<section class="text-center">
+		<header class="container">
+			<!-- main_nav.php -->
+			<nav class="navbar navbar-default navbar-static-top main-nav" role="navigation">
 				<div class="container">
 					<div class="navbar-header">
 						<button class="navbar-toggle collapsed" aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" type="button">
@@ -44,21 +50,20 @@
 							<li><a href="#">Booking</a></li>
 							<li><a href="#palawan_tour">Palawan Tour</a></li>
 							<li><a href="#location">Location</a></li>
-							<!--<li><a href="#">Policy</a></li>
-							 <li><a href="#">Contact</a></li>
-							<li><a href="#">About Us</a></li> will be move to the footer --> 
 						</ul>
 					</div>
 				</div>
 			</nav>
+			<!-- end main_nav.php -->
 		</header>
+		<!-- main_slide.php -->
 		<div class="slide_wrapper">
 			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 				<!-- Wrapper for slides -->
-				<div class="carousel-inner" role="listbox" style="background-color: black">
-					<div class="item active" style="height: 93vh; overflow: hidden;">
-						<img src="_/images/slide1.png" alt="Slide 1" style="float: none; margin: 0 auto; width: 100%; height: auto;">
-						<div class="carousel-caption" style="width: 400px; text-align: left; left:8%; bottom:10px; padding-bottom:10px;">
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<img src="_/images/slide1.png" alt="Slide 1">
+						<div class="carousel-caption">
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -67,9 +72,9 @@
 							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 						</div>
 					</div>
-					<div class="item" style="height: 93vh; overflow: hidden;">
-						<img src="_/images/slide2.png" alt="Slide 2" style="float: none; margin: auto; width: 100%; height: auto;">
-						<div class="carousel-caption" style="width: 400px; text-align: left; left:8%; bottom:10px; padding-bottom:10px;">
+					<div class="item">
+						<img src="_/images/slide2.png" alt="Slide 2">
+						<div class="carousel-caption">
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -78,9 +83,9 @@
 							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 						</div>
 					</div>
-					<div class="item" style="height: 93vh; overflow: hidden;">
-						<img src="_/images/slide3.png" alt="Slide 3" style="float: none; margin: 0 auto; width: 100%; height: auto;">
-						<div class="carousel-caption" style="width: 400px; text-align: left; left:8%; bottom:10px; padding-bottom:10px;">
+					<div class="item">
+						<img src="_/images/slide3.png" alt="Slide 3">
+						<div class="carousel-caption">
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -145,6 +150,7 @@
 				</div>
 			</div>
 		</div>
+		<!-- end main_slide.php -->
 		<div class="container" style="margin-top: 20px">
 			<div id="space" class="row">
 				<h1>Experience Fun and the Luxury of Home while at Palawan!</h1>
@@ -388,6 +394,7 @@
 		</div><!-- content -->
 		
 	</section><!-- container -->
+	<!-- thumbnail_modal.php -->
 	<div class="modal fade" id="thumbnail-full">
 		<div class="modal-dialog">
 			<div class="modal-content">
@@ -401,6 +408,8 @@
 			</div>
 		</div>
 	</div>
+	<!-- end thumbnail_modal.php -->
+	<!-- booking_modal.php -->
 	<div class="modal fade" id="booking">
 		<div class="modal-dialog modal-lg">
 			<div class="modal-content">
@@ -429,7 +438,7 @@
 								<td>
 									<div class="row">
 										<div class="col-md-12">
-											PHP 999,999.00
+											<b>PHP <span class="rate">999,999.00</span></b>
 										</div>
 									</div>
 									<div class="row">
@@ -444,7 +453,7 @@
 								<td>
 									<div class="row">
 										<div class="col-md-12">
-											<button type="button" class="btn btn-warning">Book</button>
+											<b>PHP <span class="subtotal">00.00</span></b>
 										</div>
 									</div>
 									<div class="row">
@@ -462,7 +471,7 @@
 								<td>
 									<div class="row">
 										<div class="col-md-12">
-											PHP 999,999.00
+											<b>PHP <span class="rate">999,999.00</span></b>
 										</div>
 									</div>
 									<div class="row">
@@ -477,7 +486,7 @@
 								<td>
 									<div class="row">
 										<div class="col-md-12">
-											<button type="button" class="btn btn-warning">Book</button>
+											<b>PHP <span class="subtotal">00.00</span></b>
 										</div>
 									</div>
 									<div class="row">
@@ -493,7 +502,12 @@
 			</div>
 		</div>
 	</div>
+<<<<<<< HEAD
 	<footer id="footer" class="footer">
+=======
+	<!-- end booking_modal.php -->
+	<footer class="footer">
+>>>>>>> origin/master
 		<div class="container">
 			<div class="row">
 		        <div class="col-xs-6 col-sm-6 col-lg-3">
@@ -552,6 +566,7 @@
 	<script type='text/javascript' src='_/js/jquery-1.11.0.js'></script>
 	<script type='text/javascript' src='_/js/jquery-ui.min.js'></script>
 	<script type='text/javascript' src='_/js/bootstrap.min.js'></script>
+	<!-- custom.js -->
 	<script type='text/javascript'>
 		$('.thumbnail').on('click', function(e){
 			e.preventDefault();
@@ -592,8 +607,12 @@
 				$('.double_room_row').find('select').append($("<option />").val(i).text(i))
 			}
 
-	    	var double_room_val = $('#double_room').val();
+	    	var double_room_val = ( parseInt($('#double_room').val()) > 0 ) ? parseInt($('#double_room').val()) : 0;
 	    	$('#double_room_select').val(double_room_val);
+	    	get_subtotal('.double_room_row');
+	    	$('.double_room_row').find('select').on('change', function(){
+	    		get_subtotal('.double_room_row');
+	    	});
 
 	    	var single_max = parseInt($('.single_room_row').find('.remaining_rooms').html());
 	    	$('.single_room_row').find('select').html('');
@@ -601,8 +620,12 @@
 				$('.single_room_row').find('select').append($("<option />").val(i).text(i))
 			}
 
-	    	var single_room_val = $('#single_room').val();
+	    	var single_room_val = ( parseInt($('#single_room').val()) > 0 ) ? parseInt($('#single_room').val()) : 0;
 	    	$('#single_room_select').val(single_room_val);
+	    	get_subtotal('.single_room_row');
+	    	$('.single_room_row').find('select').on('change', function(){
+	    		get_subtotal('.single_room_row');
+	    	});
 	    });
 
 		$('a[href*=#]:not([href=#])').click(function() {
@@ -617,6 +640,17 @@
 				}
 			}
 		});
+
+		function get_subtotal(row){
+			var rate_per_room = parseFloat(removeCommas($(row).find('.rate').html()));
+			var number_of_rooms = parseFloat($(row).find('select').val());
+			var subtotal = rate_per_room * number_of_rooms;
+			$(row).find('span.subtotal').html((subtotal % 1 != 0 ? subtotal : subtotal.toFixed(2)));
+		}
+
+		function removeCommas(str) {
+		    return(str.replace(/,/g,''));
+		}
 		/* $(document).ready(function(){
 		  $('.arrival').click(function(){
 			   $('.arrival').datepicker({
@@ -626,5 +660,6 @@
 		  });
 		}); */
 	</script>
+	<!-- end custom.js -->
 </body>
 </html>
