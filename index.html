@@ -386,7 +386,7 @@
 								<td>
 									<div class="row">
 										<div class="col-md-12">
-											PHP 999,999.00
+											<b>PHP <span class="rate">999,999.00</span></b>
 										</div>
 									</div>
 									<div class="row">
@@ -401,7 +401,7 @@
 								<td>
 									<div class="row">
 										<div class="col-md-12">
-											<button type="button" class="btn btn-warning">Book</button>
+											<b>PHP <span class="subtotal">00.00</span></b>
 										</div>
 									</div>
 									<div class="row">
@@ -419,7 +419,7 @@
 								<td>
 									<div class="row">
 										<div class="col-md-12">
-											PHP 999,999.00
+											<b>PHP <span class="rate">999,999.00</span></b>
 										</div>
 									</div>
 									<div class="row">
@@ -434,7 +434,7 @@
 								<td>
 									<div class="row">
 										<div class="col-md-12">
-											<button type="button" class="btn btn-warning">Book</button>
+											<b>PHP <span class="subtotal">00.00</span></b>
 										</div>
 									</div>
 									<div class="row">
@@ -546,8 +546,12 @@
 				$('.double_room_row').find('select').append($("<option />").val(i).text(i))
 			}
 
-	    	var double_room_val = $('#double_room').val();
+	    	var double_room_val = ( parseInt($('#double_room').val()) > 0 ) ? parseInt($('#double_room').val()) : 0;
 	    	$('#double_room_select').val(double_room_val);
+	    	get_subtotal('.double_room_row');
+	    	$('.double_room_row').find('select').on('change', function(){
+	    		get_subtotal('.double_room_row');
+	    	});
 
 	    	var single_max = parseInt($('.single_room_row').find('.remaining_rooms').html());
 	    	$('.single_room_row').find('select').html('');
@@ -555,8 +559,12 @@
 				$('.single_room_row').find('select').append($("<option />").val(i).text(i))
 			}
 
-	    	var single_room_val = $('#single_room').val();
+	    	var single_room_val = ( parseInt($('#single_room').val()) > 0 ) ? parseInt($('#single_room').val()) : 0;
 	    	$('#single_room_select').val(single_room_val);
+	    	get_subtotal('.single_room_row');
+	    	$('.single_room_row').find('select').on('change', function(){
+	    		get_subtotal('.single_room_row');
+	    	});
 	    });
 
 		$('a[href*=#]:not([href=#])').click(function() {
@@ -571,6 +579,17 @@
 				}
 			}
 		});
+
+		function get_subtotal(row){
+			var rate_per_room = parseFloat(removeCommas($(row).find('.rate').html()));
+			var number_of_rooms = parseFloat($(row).find('select').val());
+			var subtotal = rate_per_room * number_of_rooms;
+			$(row).find('span.subtotal').html((subtotal % 1 != 0 ? subtotal : subtotal.toFixed(2)));
+		}
+
+		function removeCommas(str) {
+		    return(str.replace(/,/g,''));
+		}
 		/* $(document).ready(function(){
 		  $('.arrival').click(function(){
 			   $('.arrival').datepicker({
