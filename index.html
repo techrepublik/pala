@@ -11,9 +11,9 @@
 	<nav id="social_links" class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0 !important">
 		<div class="container">
 			<div class="navbar-header" style="margin: 15px 0;">
-				<a href="mailto:info@julietaspensionhouse.com.ph" title="Email"><i class="fa fa-envelope"></i> info@julietaspensionhouse.com.ph</a>
+				<a href="mailto:info@julietaspensionhouse.com.ph" title="Email" style="color: #66cc66;"><i class="fa fa-envelope"></i> info@julietaspensionhouse.com.ph</a>
 				&nbsp; / &nbsp;
-				<a href="tel:048-4330374" title="Telephone/Fax"><i class="fa fa-fax"></i> (048) 433 - 0374</a>
+				<span><i class="fa fa-fax"></i> (048) 433 - 0374</span>
 			</div>
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="#" class="fa fa-twitter"></a></li>
@@ -40,7 +40,7 @@
 						<ul class="nav navbar-nav navbar-right">
 							<li class="active"><a href="#">Home</a></li>
 							<li><a href="#accomodation">Accomodation</a></li>
-							<li><a href="#">Services</a></li>
+							<li><a href="#services">Services</a></li>
 							<li><a href="#">Booking</a></li>
 							<li><a href="#palawan_tour">Palawan Tour</a></li>
 							<li><a href="#location">Location</a></li>
@@ -237,6 +237,58 @@
 				</div><!-- end of rooms -->
 			</div> <!-- end of accomodation -->
 			<hr/>
+			<div id="services" class="row">
+				<h3><strong>Services</strong> for your convenience..</h3> <br />
+				<div class="col col-md-4">
+					<h4>Tour</h4>
+					<div class="col-md-12">
+						<div class="col-md-12">
+							<a href="#">
+								<img src="_/images/slide3.png" alt="Tour Arrangement" class="img-circle" width="160" height="160">
+							</a>
+						</div>
+						<div class="col-md-12" style="padding-top: 15px;">
+							<p>schedule palawan tour</p>
+							<p>coordinate with tour company/provider</p>
+							<p>tour packages</p>
+							<p>souveiner shops</p>
+							<p>city tour</p>
+						</div>
+					</div>
+				</div>
+				<div class="col col-md-4">
+					<h4>Food</h4>
+					<div class="col-md-12">
+						<div class="col-md-12">
+							<a href="#">
+								<img src="_/images/slide3.png" alt="Tour Arrangement" class="img-circle" width="160" height="160">
+							</a>
+						</div>
+						<div class="col-md-12" style="padding-top: 15px;">
+							<p>personalize cooking (by request)</p>
+							<p>complementary breakfast</p>
+							<p>coffee and dining area</p>
+						</div>
+					</div>
+				</div>
+				<div class="col col-md-4">
+					<h4>Laundry</h4>
+					<div class="col-md-12">
+						<div class="col-md-12">
+							<a href="#">
+								<img src="_/images/slide3.png" alt="Tour Arrangement" class="img-circle" width="160" height="160">
+							</a>
+						</div>
+						<div class="col-md-12" style="padding-top: 15px;">
+							<p>do it your own (DIY) laundry</p>
+							<p>laudry area</p>
+							<p>launry machine</p>
+							<p>dry cleaning</p>
+						</div>
+					</div>
+				</div>
+			</div> <!-- end of services -->
+			<hr/>
 			<div id="palawan_tour" class="row div-bg-gr">
 				<div class="col col-lg-12">
 					<h3><strong>Palawan Tour Packages</strong> like never before..</h3>
@@ -302,7 +354,7 @@
 										consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 										cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 										proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-										<p><a class="btn btn-default btn-sm pull-left">Read more</a></p>
+										<p><button class="btn btn-default btn-sm pull-left" id="readmore4">Read more</button></p>
 									</div>
 									<div class="col-xs-6 col-md-3">
 										<a href="#" class="thumbnail">
@@ -314,16 +366,11 @@
 						</div>
 					<!-- </div>
 				</div> -->
-				
 			</div> <!-- end of palawan tour -->
-			<div id="services" class="row">
-				
-
-			</div> <!-- end of services -->
 			<hr /><br />
 			<div id="location" class="row">
 				<div class="col col-lg-12">
-					<h3><strong>Location</strong> is less than 10 minutes from the airport..</h3> <br />
+					<h3><strong>Location</strong> is less than five (5) minutes from the airport..</h3> <br />
 					<div class="thumbnail">
 						<iframe src="https://www.google.com/maps/embed?pb=!1m29!1m12!1m3!1d15729.033518516702!
 				        2d118.74946057690494!3d9.744167606872955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m14!1i0!3e6!4m5!
@@ -446,49 +493,47 @@
 			</div>
 		</div>
 	</div>
-	<footer class="footer">
+	<footer id="footer" class="footer">
 		<div class="container">
 			<div class="row">
-		      <div class="col-xs-6 col-sm-6 col-lg-3">
-		        <h4 class="line3 center standart-h4title"><span>navigation</span></h4>
-		        <ul class="footer-links list-unstyled">
-		          <li><a href="#">Home</a></li>
-		          <li><a href="#">Accomodation</a></li>
-		          <li><a href="#">Services</a></li>
-		          <li><a href="#">Palawan Tour</a></li>
-		          <li><a href="#">Booking</a></li>
-		          <li><a href="#">Location</a></li>
-		        </ul>
-		      </div>
-			  
-		    <div class="col-xs-6 col-sm-6 col-lg-3">
-		        <h4 class="line3 center standart-h4title"><span>internal</span></h4>
-		        <ul class="footer-links list-unstyled">
-		          <li><a href="#">Policy</a></li>
-		          <li><a href="#">About Us</a></li>
-		          <li><a href="#">Our Client</a></li>
-		        </ul>
-		    </div> 
-			  
-			<div class="col-xs-6 col-sm-6 col-lg-3">
-		         <h4 class="line3 center standart-h4title"><span>our pension house</span></h4>
-				<address>
-					<strong>julieta's pension house</strong><br>
-					<i class="icon-map-marker"></i> wescome road, brgy. san miguel, puerto princesa city<br>
-					palawan, philippines<br>
-					<i class="icon-phone-sign"></i> (048) 433-0374
-				</address>
-		    </div>
-			
-					<div class="col-xs-6 col-sm-6 col-lg-3">
+		        <div class="col-xs-6 col-sm-6 col-lg-3">
+			        <h4 class="line3 center standart-h4title"><span>navigation</span></h4>
+			        <ul class="footer-links list-unstyled">
+			          <li><a href="#">Home</a></li>
+			          <li><a href="#">Accomodation</a></li>
+			          <li><a href="#">Services</a></li>
+			          <li><a href="#">Palawan Tour</a></li>
+			          <li><a href="#">Booking</a></li>
+			          <li><a href="#">Location</a></li>
+			        </ul>
+			    </div>
+			    <div class="col-xs-6 col-sm-6 col-lg-3">
+			        <h4 class="line3 center standart-h4title"><span>internal</span></h4>
+			        <ul class="footer-links list-unstyled">
+			          <li><a href="#">Policy</a></li>
+			          <li><a href="#">About Us</a></li>
+			          <li><a href="#">Our Client</a></li>
+			        </ul>
+			    </div> 
+				<div class="col-xs-6 col-sm-6 col-lg-3">
+	                <h4 class="line3 center standart-h4title"><span>our pension house</span></h4>
+					<address>
+						<strong>julieta's pension house</strong><br>
+						<i class="icon-map-marker"></i> wescome road, brgy. san miguel, puerto princesa city<br>
+						palawan, philippines<br>
+						<i class="icon-phone-sign"></i> (048) 433-0374
+					</address>
+			    </div>
+					<div id="info" class="col-xs-6 col-sm-6 col-lg-3">
 					   <div class="panel panel-default">
 							<div class="panel-heading text-center">
 								<h3 class="text-info">
-									<i class="fa fa-comments-o "></i> Need help? 
+									<i class="fa fa-comments-o"></i> Need help? 
 								</h3>
 							</div>
 							<div class="panel-footer">
-								<p><a class="btn btn-warning btn-sm btn-block">Contact support</a></p>
+								<!--- <p><a class="btn btn-warning btn-sm btn-block">Contact</a></p> -->
+								<a href="mailto:info@julietaspensionhouse.com.ph" title="Email" class="link-text-footer"><i class="fa fa-envelope"></i> info@julietaspensionhouse.com.ph</a>	
 							</div>
 						</div>
 					</div>
@@ -510,6 +555,13 @@
 	<script type='text/javascript'>
 		$('.thumbnail').on('click', function(e){
 			e.preventDefault();
+			var src = $(this).find('img').prop('src');
+			$('#thumbnail-full').find('img').prop('src', src);
+			$('#thumbnail-full').find('.modal-title').html($(this).find('img').prop('alt'));
+			$('#thumbnail-full').modal('show');
+		});
+
+		$('#readmore4').find('button').click(function () {
 			var src = $(this).find('img').prop('src');
 			$('#thumbnail-full').find('img').prop('src', src);
 			$('#thumbnail-full').find('.modal-title').html($(this).find('img').prop('alt'));
