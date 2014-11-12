@@ -1,3 +1,14 @@
+.navbar-header > a:link,
+.navbar-header > a:visited,
+.navbar-header > a:hover,
+.navbar-header > a:active {
+    color: #66cc66;
+}
+
+.navbar-header {
+	color: #66cc66;
+}
+
 .no-margin-btm {
 	margin-bottom: 0 !important;
 }
