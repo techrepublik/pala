@@ -5,8 +5,8 @@
 	</div>
 	<div class="col-md-12">
 		<div class="row">
-			<div class="col-md-6 parent">
-				<div class="col-xs-12 col-md-12" style="text-align: left;">
+			<div class="col-md-6">
+				<div class="col-xs-12 col-md-12 tour-package" style="text-align: left;">
 					<div class="col col-md-12">
 						<h5><strong>City Tour</strong> (Php 600.00/pax)</h5>
 						<p class="p-format">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -14,7 +14,7 @@
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 						consequat. </p>
 					</div>
-					<div id="city_add" class="col col-md-12 to-slide" style="display:none;">
+					<div id="city_add" class="col col-md-12 to-show" style="display:none;">
 						<p class="p-format">
 						Duis aute irure dolor in reprehenderit in voluptate velit esse
 						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
@@ -43,10 +43,10 @@
 						</div>
 					</div>
 					<div class="col col-md-12 pull-left">
-						<span><a id="city_tour" class="btn btn-default btn-xs show-toggle">read more...</a></span>
+						<span><a id="city_tour" class="btn btn-default btn-xs toggle-show">read more...</a></span>
 					</div>
 				</div>
-				<div class="col-xs-12 col-md-12" style="text-align: left;">
+				<div class="col-xs-12 col-md-12 tour-package" style="text-align: left;">
 					<div class="col col-md-12">
 						<h5><strong>Underground River</strong> (Php 1,500.00/pax)</h5>
 						<p class="p-format">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -54,7 +54,7 @@
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 						consequat. </p>
 					</div>
-					<div id="underground" class="col col-md-12" style="display:none;">
+					<div id="underground" class="col col-md-12 to-show" style="display:none;">
 						<p class="p-format">
 						Duis aute irure dolor in reprehenderit in voluptate velit esse
 						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
@@ -93,10 +93,10 @@
 						</div>
 					</div>
 					<div class="col col-md-12 pull-left">
-						<span><a id="underground_btn" class="btn btn-default btn-xs">read more...</a></span>
+						<span><a id="underground_btn" class="btn btn-default btn-xs toggle-show">read more...</a></span>
 					</div>
 				</div>
-				<div class="col-xs-12 col-md-12" style="text-align: left;">
+				<div class="col-xs-12 col-md-12 tour-package" style="text-align: left;">
 					<div class="col col-md-12">
 						<h5><strong>Honday Bay Island Hopping</strong> (Php 1,300.00/pax)</h5>
 						<p class="p-format">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -104,7 +104,7 @@
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 						consequat. </p>
 					</div>
-					<div id="honda" class="col col-md-12" style="display:none;">
+					<div id="honda" class="col col-md-12 to-show" style="display:none;">
 						<p class="p-format">
 						Duis aute irure dolor in reprehenderit in voluptate velit esse
 						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
@@ -143,10 +143,10 @@
 						</div>
 					</div>
 					<div class="col col-md-12 pull-left">
-						<span><a id="honda_btn" class="btn btn-default btn-xs">read more...</a></span>
+						<span><a id="honda_btn" class="btn btn-default btn-xs toggle-show">read more...</a></span>
 					</div>
 				</div>
-				<div class="col-xs-12 col-md-12" style="text-align: left;">
+				<div class="col-xs-12 col-md-12 tour-package" style="text-align: left;">
 					<div class="col col-md-12">
 						<h5><strong>Dolphin Watching</strong> (Php 1,100.00/pax)</h5>
 						<p class="p-format">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -154,7 +154,7 @@
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 						consequat. </p>
 					</div>
-					<div id="dolphin" class="col col-md-12" style="display:none;">
+					<div id="dolphin" class="col col-md-12 to-show" style="display:none;">
 						<p class="p-format">
 						Duis aute irure dolor in reprehenderit in voluptate velit esse
 						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
@@ -193,13 +193,13 @@
 						</div>
 					</div>
 					<div class="col col-md-12 pull-left">
-						<span><a id="dolphin_btn" class="btn btn-default btn-xs">read more...</a></span>
+						<span><a id="dolphin_btn" class="btn btn-default btn-xs toggle-show">read more...</a></span>
 					</div>
 				</div>
 			</div> <!-- end of col 1 -->
-			<div class="col-md-6 parent">
+			<div class="col-md-6">
 				<div class="col-md-12">
-					<div class="col-xs-12 col-md-12" style="text-align: left;">
+					<div class="col-xs-12 col-md-12 tour-package" style="text-align: left;">
 						<div class="col col-md-12">
 							<h5><strong>Dos Palmas Day Tour</strong> (Php 2,000.00/pax)</h5>
 							<p class="p-format">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -207,7 +207,7 @@
 							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 							consequat. </p>
 						</div>
-						<div id="dolphin" class="col col-md-12" style="display:none;">
+						<div id="dolphin" class="col col-md-12 to-show" style="display:none;">
 							<p class="p-format">
 							Duis aute irure dolor in reprehenderit in voluptate velit esse
 							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
@@ -246,12 +246,12 @@
 							</div>
 						</div>
 						<div class="col col-md-12 pull-left">
-							<span><a id="dolphin_btn" class="btn btn-default btn-xs">read more...</a></span>
+							<span><a id="dolphin_btn" class="btn btn-default btn-xs toggle-show">read more...</a></span>
 						</div>
 					</div>
 				</div>	
 				<div class="col-md-12">
-					<div class="col-xs-12 col-md-12" style="text-align: left;">
+					<div class="col-xs-12 col-md-12 tour-package" style="text-align: left;">
 						<div class="col col-md-12">
 							<h5><strong>Firefly Watching</strong> (Php 1,100.00/pax)</h5>
 							<p class="p-format">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -259,7 +259,7 @@
 							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 							consequat. </p>
 						</div>
-						<div id="dolphin" class="col col-md-12" style="display:none;">
+						<div id="dolphin" class="col col-md-12 to-show" style="display:none;">
 							<p class="p-format">
 							Duis aute irure dolor in reprehenderit in voluptate velit esse
 							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
@@ -298,12 +298,12 @@
 							</div>
 						</div>
 						<div class="col col-md-12 pull-left">
-							<span><a id="dolphin_btn" class="btn btn-default btn-xs">read more...</a></span>
+							<span><a id="dolphin_btn" class="btn btn-default btn-xs toggle-show">read more...</a></span>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-12">
-					<div class="col-xs-12 col-md-12" style="text-align: left;">
+					<div class="col-xs-12 col-md-12 tour-package" style="text-align: left;">
 						<div class="col col-md-12">
 							<h5><strong>Estrella Falls</strong> (Php 1,400.00/pax)</h5>
 							<p class="p-format">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -311,7 +311,7 @@
 							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 							consequat. </p>
 						</div>
-						<div id="dolphin" class="col col-md-12" style="display:none;">
+						<div id="dolphin" class="col col-md-12 to-show" style="display:none;">
 							<p class="p-format">
 							Duis aute irure dolor in reprehenderit in voluptate velit esse
 							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
@@ -350,12 +350,12 @@
 							</div>
 						</div>
 						<div class="col col-md-12 pull-left">
-							<span><a id="dolphin_btn" class="btn btn-default btn-xs">read more...</a></span>
+							<span><a id="dolphin_btn" class="btn btn-default btn-xs toggle-show">read more...</a></span>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-12">
-					<div class="col-xs-12 col-md-12" style="text-align: left;">
+					<div class="col-xs-12 col-md-12 tour-package" style="text-align: left;">
 						<div class="col col-md-12">
 							<h5><strong>Bancungan River Cruise</strong> (Php 1,700.00/pax)</h5>
 							<p class="p-format">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -363,7 +363,7 @@
 							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 							consequat. </p>
 						</div>
-						<div id="dolphin" class="col col-md-12" style="display:none;">
+						<div id="dolphin" class="col col-md-12 to-show" style="display:none;">
 							<p class="p-format">
 							Duis aute irure dolor in reprehenderit in voluptate velit esse
 							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
@@ -402,12 +402,12 @@
 							</div>
 						</div>
 						<div class="col col-md-12 pull-left">
-							<span><a id="dolphin_btn" class="btn btn-default btn-xs">read more...</a></span>
+							<span><a id="dolphin_btn" class="btn btn-default btn-xs toggle-show">read more...</a></span>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-12">
-					<div class="col-xs-12 col-md-12" style="text-align: left;">
+					<div class="col-xs-12 col-md-12 tour-package" style="text-align: left;">
 						<div class="col col-md-12">
 							<h5><strong>El Nido</strong> (Php 9,500.00/pax - 4D3N)</h5>
 							<p class="p-format">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -415,7 +415,7 @@
 							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 							consequat. </p>
 						</div>
-						<div id="dolphin" class="col col-md-12" style="display:none;">
+						<div id="dolphin" class="col col-md-12 to-show" style="display:none;">
 							<p class="p-format">
 							Duis aute irure dolor in reprehenderit in voluptate velit esse
 							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
@@ -454,7 +454,7 @@
 							</div>
 						</div>
 						<div class="col col-md-12 pull-left">
-							<span><a id="dolphin_btn" class="btn btn-default btn-xs">read more...</a></span>
+							<span><a id="dolphin_btn" class="btn btn-default btn-xs toggle-show">read more...</a></span>
 						</div>
 					</div>
 				</div>
@@ -463,4 +463,4 @@
 		<br />
 	</div>
 	<br/>
-</div> <!-- end of palawan tour -->
+</div>
