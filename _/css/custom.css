@@ -44,7 +44,7 @@ header.container:hover {
 	float: none;
 	margin: 0 auto;
 	width: 100%;
-	height: auto;
+	height: 100%;
 }
 
 .slide_wrapper .carousel-caption {
@@ -99,7 +99,7 @@ ul.unstyled, ol.unstyled {
 	padding-bottom: 10px;
 	margin-top: 20px;
 	border-top: 1px solid rgba(217, 217, 217, 0.8);
-	background: #1d212b;
+	background: #cccccc;
 }
 .div-bg{
 	background: #66cc66;

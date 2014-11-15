@@ -7,22 +7,32 @@
 		<div class="col-md-6">
 			<div class="col-xs-6 col-md-6">
 				<a href="#" class="thumbnail">
-					<img src="_/images/slide2173e245761c487d8981a8f1cdc65ef60.png" alt="Double-Sized Bed">
+					<img src="_/images/room1.png" alt="Double-Sized Bed">
 				</a>
 			</div>
 			<div class="col-xs-6 col-md-6">
 				<a href="#" class="thumbnail">
-					<img src="_/images/slide2173e245761c487d8981a8f1cdc65ef61.png" alt="Entrance">
+					<img src="_/images/room2.png" alt="Entrance">
 				</a>
 			</div>
 			<div class="col-xs-6 col-md-6">
 				<a href="#" class="thumbnail">
-					<img src="_/images/slide2173e245761c487d8981a8f1cdc65ef63.png" alt="Twin Bed">
+					<img src="_/images/room3.png" alt="Twin Bed">
 				</a>
 			</div>
 			<div class="col-xs-6 col-md-6">
 				<a href="#" class="thumbnail">
-					<img src="_/images/slide2173e245761c487d8981a8f1cdc65ef64.png" alt="Room Lighting">
+					<img src="_/images/room4.png" alt="Room Lighting">
+				</a>
+			</div>
+			<div class="col-xs-6 col-md-6">
+				<a href="#" class="thumbnail">
+					<img src="_/images/room5.png" alt="Twin Bed">
+				</a>
+			</div>
+			<div class="col-xs-6 col-md-6">
+				<a href="#" class="thumbnail">
+					<img src="_/images/room6.jpg" alt="TV + Mirror">
 				</a>
 			</div>
 		</div>
