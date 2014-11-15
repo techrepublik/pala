@@ -77,6 +77,11 @@ $(document).ready(function(){
       }
     }
   });
+
+  $('#booking').find('button').on('click', function(){
+    
+  });
+
   $('.toggle-show').click(function(){
     console.log('Hey');
     var to_show = $(this).closest('.tour-package').find('.to-show');

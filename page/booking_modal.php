@@ -141,7 +141,15 @@
 					</div>
 					<div class="form-group">
 						<label for="email">Email</label>
-						<input type="email" class="form-control" name="email" id="email" placeholder="Middle name">
+						<input type="email" class="form-control" name="email" id="email" placeholder="Email">
+					</div>
+					<div class="form-group">
+						<label for="billing_addr">Contact number</label>
+						<input type="text" class="form-control" name="billing_addr" id="billing_addr" placeholder="Billing Address">
+					</div>
+					<div class="form-group">
+						<label for="contact_no">Contact number</label>
+						<input type="tel" class="form-control" name="contact_no" id="contact_no" placeholder="Contact Number">
 					</div>
 					<div class="form-group text-right">
 						<button type="button" class="btn btn-warning btn-sm">Continue</button>
