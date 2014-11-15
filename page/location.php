@@ -1,6 +1,6 @@
 <div id="location" class="row">
 	<div class="col col-lg-12">
-		<h3><strong>Location</strong> is less than five (5) minutes from the airport..</h3> <br />
+		<h3><strong class="font-color-gn">Location</strong> is less than five (5) minutes from the airport..</h3> <br />
 		<div class="thumbnail">
 			<iframe src="https://www.google.com/maps/embed?pb=!1m29!1m12!1m3!1d15729.033518516702!
 	        2d118.74946057690494!3d9.744167606872955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m14!1i0!3e6!4m5!

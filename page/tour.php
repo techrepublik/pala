@@ -1,6 +1,6 @@
 <div id="palawan_tour" class="row div-bg-gr">
 	<div class="col col-lg-12">
-		<h3><strong>Palawan Tour Packages</strong> like never before..</h3>
+		<h3><strong class="font-color-gn">Palawan Tour Packages</strong> like never before..</h3>
 		<br/>
 	</div>
 	<div class="col-md-12">

@@ -1,4 +1,4 @@
-<div id="accomodation" class="row div-bg">
+<div class="row div-bg">
 	<div class="col col-lg-12">
 		<h3 class="font-color-wh"><strong>Accomodation</strong> like no other..</h3>
 		<br/>
@@ -7,32 +7,32 @@
 		<div class="col-md-6">
 			<div class="col-xs-6 col-md-6">
 				<a href="#" class="thumbnail">
-					<img src="_/images/room1.png" alt="Double-Sized Bed">
+					<img src="_/images/accomodation/room1.png" alt="Double-Sized Bed">
 				</a>
 			</div>
 			<div class="col-xs-6 col-md-6">
 				<a href="#" class="thumbnail">
-					<img src="_/images/room2.png" alt="Entrance">
+					<img src="_/images/accomodation/room2.png" alt="Entrance">
 				</a>
 			</div>
 			<div class="col-xs-6 col-md-6">
 				<a href="#" class="thumbnail">
-					<img src="_/images/room3.png" alt="Twin Bed">
+					<img src="_/images/accomodation/room3.png" alt="Twin Bed">
 				</a>
 			</div>
 			<div class="col-xs-6 col-md-6">
 				<a href="#" class="thumbnail">
-					<img src="_/images/room4.png" alt="Room Lighting">
+					<img src="_/images/accomodation/room4.png" alt="Room Lighting">
 				</a>
 			</div>
 			<div class="col-xs-6 col-md-6">
 				<a href="#" class="thumbnail">
-					<img src="_/images/room5.png" alt="Twin Bed">
+					<img src="_/images/accomodation/room5.png" alt="Twin Bed">
 				</a>
 			</div>
 			<div class="col-xs-6 col-md-6">
 				<a href="#" class="thumbnail">
-					<img src="_/images/room6.jpg" alt="TV + Mirror">
+					<img src="_/images/accomodation/room6.jpg" alt="TV + Mirror">
 				</a>
 			</div>
 		</div>

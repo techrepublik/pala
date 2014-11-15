@@ -28,10 +28,10 @@
       <?php include("_/comp/carousel.php"); ?>
 
       <div class="container" style="margin-top: 20px">
-        <div id="space" class="row">
-          <h1>Experience Fun and the Luxury of the House while at Palawan!</h1>
+        <div id="accomodation" class="row">
+          <h1>Experience <strong class="font-color-gn">Fun</strong> and the <strong class="font-color-gn">Luxury</strong> of the House while at <strong class="font-color-gn">Palawan!</strong></h1>
         </div> <!-- end space -->
-        <br/><br/><br><hr/>
+        <br>
         <?php include("page/accomodation.php"); ?><hr/>
         <?php include("page/services.php"); ?><hr />
         <?php include("page/tour.php"); ?><hr />

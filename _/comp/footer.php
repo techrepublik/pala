@@ -2,15 +2,9 @@
 	<div class="container">
 		<div class="row">
 	        <div class="col-xs-6 col-sm-6 col-lg-3">
-		        <h4 class="line3 center standart-h4title"><span>navigation</span></h4>
-		        <ul class="footer-links list-unstyled">
-		          <li><a href="#">Home</a></li>
-		          <li><a href="#">Accomodation</a></li>
-		          <li><a href="#">Services</a></li>
-		          <li><a href="#">Palawan Tour</a></li>
-		          <li><a href="#">Booking</a></li>
-		          <li><a href="#">Location</a></li>
-		        </ul>
+	        	<a href="#">
+	        		<img src="_/images/jph-jph.png" width="180px" height="160px">
+	        	</a>
 		    </div>
 		    <div class="col-xs-6 col-sm-6 col-lg-3">
 		        <h4 class="line3 center standart-h4title"><span>internal</span></h4>
@@ -24,9 +18,9 @@
                 <h4 class="line3 center standart-h4title"><span>our pension house</span></h4>
 				<address>
 					<strong>julieta's pension house</strong><br>
-					<i class="icon-map-marker"></i> wescome road, brgy. san miguel, puerto princesa city<br>
+					<i class="fa fa-map-marker"></i> wescome road, brgy. san miguel, puerto princesa city<br>
 					palawan, philippines<br>
-					<i class="icon-phone-sign"></i> (048) 433-0374
+					<i class="fa fa-phone"></i> (048) 433-0374
 				</address>
 		    </div>
 				<div id="info" class="col-xs-6 col-sm-6 col-lg-3">
