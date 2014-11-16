@@ -25,7 +25,7 @@
 				<div id="info" class="col-xs-6 col-sm-6 col-lg-3">
 				   <div class="panel panel-default">
 						<div class="panel-heading text-center">
-							<h3 class="text-info">
+							<h3 class="text-warning">
 								<i class="fa fa-comments-o"></i> Need help? 
 							</h3>
 						</div>
