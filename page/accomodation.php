@@ -1,6 +1,6 @@
 <div class="row div-bg">
 	<div class="col col-lg-12">
-		<h3 class="font-color-wh"><strong>Accomodation</strong> like no other..</h3>
+		<h3 class="font-color-wh"><strong class="font-color-gn">Accomodation</strong> like no other..</h3>
 		<br/>
 	</div>
 	<div id="rooms" class="col-lg-12">
@@ -38,7 +38,7 @@
 		</div>
 		<div class="col-md-6 text-left">
 			<h4 class="font-color-wh"><strong>Room</strong></h4>
-			<div class="row">
+			<div class="row font-color-gr">
 				<div class="col-sm-6">
 					<p><i class="fa fa-check"></i>&nbsp; airconditioned</p>
 					<p><i class="fa fa-check"></i>&nbsp; 24 hour cable tv service</p>
@@ -60,7 +60,7 @@
 				<p>complementary breakfast<span> <i class="fa fa-circle"></i></span> wifi-internet access</p> -->
 			</div>
 			<h4 class="font-color-wh"><strong>Amenities</strong></h4>
-			<div class="row">
+			<div class="row font-color-gr">
 				<div class="col-sm-6">
 					<p><i class="fa fa-check"></i>&nbsp; FREE transportation from airport to julieta's pension house and vice-versa</p>
 					<p><i class="fa fa-check"></i>&nbsp; FREE complementary breakfast</p>

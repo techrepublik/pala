@@ -7,7 +7,7 @@
 	        	</a>
 		    </div>
 		    <div class="col-xs-6 col-sm-6 col-lg-3">
-		        <h4 class="line3 center standart-h4title"><span>internal</span></h4>
+		        <h4 class="line3 center standart-h4title font-color-yw"><span>internal</span></h4>
 		        <ul class="footer-links list-unstyled">
 		          <li><a href="#">Policy</a></li>
 		          <li><a href="#">About Us</a></li>
@@ -15,13 +15,12 @@
 		        </ul>
 		    </div> 
 			<div class="col-xs-6 col-sm-6 col-lg-3">
-                <h4 class="line3 center standart-h4title"><span>our pension house</span></h4>
-				<address>
-					<strong>julieta's pension house</strong><br>
-					<i class="fa fa-map-marker"></i> wescome road, brgy. san miguel, puerto princesa city<br>
-					palawan, philippines<br>
-					<i class="fa fa-phone"></i> (048) 433-0374
-				</address>
+                <h4 class="line3 center standart-h4title font-color-yw"><span>external/links</span></h4>
+				<ul class="footer-links list-unstyled">
+		          <li><a href="http://www.agoda.com">Agoda</a></li>
+		          <li><a href="http://www.olx.com">OLX</a></li>
+		          <li><a href="http://www.e-philippines.com.ph" target="_blank">e-philippines</a></li>
+		        </ul>
 		    </div>
 				<div id="info" class="col-xs-6 col-sm-6 col-lg-3">
 				   <div class="panel panel-default">

@@ -102,7 +102,7 @@ ul.unstyled, ol.unstyled {
 	background: #006633;
 }
 .div-bg{
-	background: #00CC66;
+	background: #330000;
 }
 .div-bg-dk{
 	background: #009966;
@@ -114,10 +114,16 @@ ul.unstyled, ol.unstyled {
 	color: #FFFFFF;
 }
 .font-color-yw{
-	color: #FFFF99;
+	color: #FFCC66;
 }
 .font-color-gn{
 	color: #66cc66;
+}
+.font-color-gr{
+	color: #989898 ;
+}
+.footer-color{
+	color: 330000;
 }
 /* @media (min-width: 768px) */
 .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
