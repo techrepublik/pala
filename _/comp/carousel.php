@@ -75,7 +75,7 @@
 					</div>
 					<br/>
 					<div class="form-group">
-						<button type="button" class="btn btn-warning btn-sm pull-right" id="book_me" data-toggle="modal" data-target="#booking">
+						<button type="button" class="btn btn-warning btn-sm pull-right" id="book_me" data-toggle="modal" data-target="">
 							Book Me
 						</button>
 					</div>
