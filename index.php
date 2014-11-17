@@ -32,9 +32,12 @@
           <h1>Experience <strong class="font-color-gn">Fun</strong> and the <strong class="font-color-gn">Luxury</strong> of the House while at <strong class="font-color-gn">Palawan!</strong></h1>
         </div> <!-- end space -->
         <br>
-        <?php include("page/accomodation.php"); ?><hr/>
-        <?php include("page/services.php"); ?><hr />
-        <?php include("page/tour.php"); ?><hr />
+        <?php include("page/accomodation.php"); ?>
+        <div class="hr compact"></div>
+        <?php include("page/services.php"); ?>
+        <div class="hr compact"></div>
+        <?php include("page/tour.php"); ?>
+        <div class="hr compact"></div>
         <?php include("page/location.php"); ?>
       </div>
     </section>

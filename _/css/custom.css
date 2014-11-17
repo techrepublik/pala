@@ -144,3 +144,17 @@ ul.unstyled, ol.unstyled {
 .p-format{
 	text-align: justify;
 }
+div.hr {
+	height: 6px;
+	width: 100%;
+	margin: 36px 0;
+	background-image: -ms-radial-gradient(center, ellipse closest-side, #CCCCCC 0%, #f8f8f8 50%);
+	background-image: -moz-radial-gradient(center, ellipse closest-side, #CCCCCC 0%, #f8f8f8 50%);
+	background-image: -o-radial-gradient(center, ellipse closest-side, #CCCCCC 0%, #f8f8f8 50%);
+	background-image: -webkit-gradient(radial, center center, 0, center center, 140, color-stop(0, #CCCCCC), color-stop(.5, #f8f8f8));
+	background-image: -webkit-radial-gradient(center, ellipse closest-side, #CCCCCC 0%, #f8f8f8 50%);
+	background-image: radial-gradient(ellipse closest-side at center, #CCCCCC 0%, #f8f8f8 50%);
+}
+div.hr.compact {
+	margin-top: 10px 0 10px;
+}

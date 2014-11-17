@@ -22,22 +22,22 @@
 						<div class="row">
 							<div class="col-xs-12 col-md-3">
 								<a href="#" class="thumbnail">
-									<img src="_/images/honda/honda1.jpg" alt="...">
+									<img src="_/images/city/city1.jpg" alt="...">
 								</a>
 							</div>
 							<div class="col-xs-12 col-md-3">
 								<a href="#" class="thumbnail">
-									<img src="_/images/honda/honda2.jpg" alt="...">
+									<img src="_/images/city/city2.jpg" alt="...">
 								</a>
 							</div>
 							<div class="col-xs-12 col-md-3">
 								<a href="#" class="thumbnail">
-									<img src="_/images/honda/honda3.jpg" alt="...">
+									<img src="_/images/city/city3.jpg" alt="...">
 								</a>
 							</div>
 							<div class="col-xs-12 col-md-3">
 								<a href="#" class="thumbnail">
-									<img src="_/images/honda/honda4.jpg" alt="...">
+									<img src="_/images/city/city4.jpg" alt="...">
 								</a>
 							</div>
 						</div>
@@ -46,6 +46,7 @@
 						<span><a id="city_tour" class="btn btn-default btn-xs toggle-show">read more...</a></span>
 					</div>
 				</div>
+				<div class="col-xs-12" style="height:20px;"></div>
 				<div class="col-xs-12 col-md-12 tour-package" style="text-align: left;">
 					<div class="col col-md-12">
 						<h5><strong>Underground River</strong> (Php 1,500.00/pax)</h5>
@@ -62,22 +63,22 @@
 						<div class="row">
 							<div class="col-xs-12 col-md-3">
 								<a href="#" class="thumbnail">
-									<img src="_/images/honda/honda1.jpg" alt="...">
+									<img src="_/images/underground/underground1.jpg" alt="...">
 								</a>
 							</div>
 							<div class="col-xs-12 col-md-3">
 								<a href="#" class="thumbnail">
-									<img src="_/images/honda/honda2.jpg" alt="...">
+									<img src="_/images/underground/underground2.jpg" alt="...">
 								</a>
 							</div>
 							<div class="col-xs-12 col-md-3">
 								<a href="#" class="thumbnail">
-									<img src="_/images/honda/honda3.jpg" alt="...">
+									<img src="_/images/underground/underground3.jpg" alt="...">
 								</a>
 							</div>
 							<div class="col-xs-12 col-md-3">
 								<a href="#" class="thumbnail">
-									<img src="_/images/honda/honda4.jpg" alt="...">
+									<img src="_/images/underground/underground4.jpg" alt="...">
 								</a>
 							</div>
 						</div>
@@ -86,6 +87,7 @@
 						<span><a id="underground_btn" class="btn btn-default btn-xs toggle-show">read more...</a></span>
 					</div>
 				</div>
+				<div class="col-xs-12" style="height:20px;"></div>
 				<div class="col-xs-12 col-md-12 tour-package" style="text-align: left;">
 					<div class="col col-md-12">
 						<h5><strong>Honday Bay Island Hopping</strong> (Php 1,300.00/pax)</h5>
@@ -126,6 +128,7 @@
 						<span><a id="honda_btn" class="btn btn-default btn-xs toggle-show">read more...</a></span>
 					</div>
 				</div>
+				<div class="col-xs-12" style="height:20px;"></div>
 				<div class="col-xs-12 col-md-12 tour-package" style="text-align: left;">
 					<div class="col col-md-12">
 						<h5><strong>Dolphin Watching</strong> (Php 1,100.00/pax)</h5>
@@ -142,22 +145,22 @@
 						<div class="row">
 							<div class="col-xs-12 col-md-3">
 								<a href="#" class="thumbnail">
-									<img src="_/images/honda/honda1.jpg" alt="...">
+									<img src="_/images/dolphin/dolphin1.jpg" alt="...">
 								</a>
 							</div>
 							<div class="col-xs-12 col-md-3">
 								<a href="#" class="thumbnail">
-									<img src="_/images/honda/honda2.jpg" alt="...">
+									<img src="_/images/dolphin/dolphin2.jpg" alt="...">
 								</a>
 							</div>
 							<div class="col-xs-12 col-md-3">
 								<a href="#" class="thumbnail">
-									<img src="_/images/honda/honda3.jpg" alt="...">
+									<img src="_/images/dolphin/dolphin3.jpg" alt="...">
 								</a>
 							</div>
 							<div class="col-xs-12 col-md-3">
 								<a href="#" class="thumbnail">
-									<img src="_/images/honda/honda4.jpg" alt="...">
+									<img src="_/images/dolphin/dolphin4.jpg" alt="...">
 								</a>
 							</div>
 						</div>
@@ -185,22 +188,22 @@
 							<div class="row">
 								<div class="col-xs-12 col-md-3">
 									<a href="#" class="thumbnail">
-										<img src="_/images/honda/honda1.jpg" alt="...">
+										<img src="_/images/dospalma/dos1.jpg" alt="...">
 									</a>
 								</div>
 								<div class="col-xs-12 col-md-3">
 									<a href="#" class="thumbnail">
-										<img src="_/images/honda/honda2.jpg" alt="...">
+										<img src="_/images/dospalma/dos2.jpg" alt="...">
 									</a>
 								</div>
 								<div class="col-xs-12 col-md-3">
 									<a href="#" class="thumbnail">
-										<img src="_/images/honda/honda3.jpg" alt="...">
+										<img src="_/images/dospalma/dos3.jpg" alt="...">
 									</a>
 								</div>
 								<div class="col-xs-12 col-md-3">
 									<a href="#" class="thumbnail">
-										<img src="_/images/honda/honda4.jpg" alt="...">
+										<img src="_/images/dospalma/dos4.jpg" alt="...">
 									</a>
 								</div>
 							</div>
@@ -210,6 +213,7 @@
 						</div>
 					</div>
 				</div>	
+				<div class="col-xs-12" style="height:20px;"></div>
 				<div class="col-md-12">
 					<div class="col-xs-12 col-md-12 tour-package" style="text-align: left;">
 						<div class="col col-md-12">
@@ -227,22 +231,22 @@
 							<div class="row">
 								<div class="col-xs-12 col-md-3">
 									<a href="#" class="thumbnail">
-										<img src="_/images/honda/honda1.jpg" alt="...">
+										<img src="_/images/firefly/firefly1.jpg" alt="...">
 									</a>
 								</div>
 								<div class="col-xs-12 col-md-3">
 									<a href="#" class="thumbnail">
-										<img src="_/images/honda/honda2.jpg" alt="...">
+										<img src="_/images/firefly/firefly2.jpg" alt="...">
 									</a>
 								</div>
 								<div class="col-xs-12 col-md-3">
 									<a href="#" class="thumbnail">
-										<img src="_/images/honda/honda3.jpg" alt="...">
+										<img src="_/images/firefly/firefly3.jpg" alt="...">
 									</a>
 								</div>
 								<div class="col-xs-12 col-md-3">
 									<a href="#" class="thumbnail">
-										<img src="_/images/honda/honda4.jpg" alt="...">
+										<img src="_/images/firefly/firefly4.jpg" alt="...">
 									</a>
 								</div>
 							</div>
@@ -252,6 +256,7 @@
 						</div>
 					</div>
 				</div>
+				<div class="col-xs-12" style="height:20px;"></div>
 				<div class="col-md-12">
 					<div class="col-xs-12 col-md-12 tour-package" style="text-align: left;">
 						<div class="col col-md-12">
@@ -269,22 +274,22 @@
 							<div class="row">
 								<div class="col-xs-12 col-md-3">
 									<a href="#" class="thumbnail">
-										<img src="_/images/honda/honda1.jpg" alt="...">
+										<img src="_/images/estrella/estrella1.jpg" alt="...">
 									</a>
 								</div>
 								<div class="col-xs-12 col-md-3">
 									<a href="#" class="thumbnail">
-										<img src="_/images/honda/honda2.jpg" alt="...">
+										<img src="_/images/estrella/estrella2.jpg" alt="...">
 									</a>
 								</div>
 								<div class="col-xs-12 col-md-3">
 									<a href="#" class="thumbnail">
-										<img src="_/images/honda/honda3.jpg" alt="...">
+										<img src="_/images/estrella/estrella3.jpg" alt="...">
 									</a>
 								</div>
 								<div class="col-xs-12 col-md-3">
 									<a href="#" class="thumbnail">
-										<img src="_/images/honda/honda4.jpg" alt="...">
+										<img src="_/images/estrella/estrella4.jpg" alt="...">
 									</a>
 								</div>
 							</div>
@@ -294,6 +299,7 @@
 						</div>
 					</div>
 				</div>
+				<div class="col-xs-12" style="height:20px;"></div>
 				<div class="col-md-12">
 					<div class="col-xs-12 col-md-12 tour-package" style="text-align: left;">
 						<div class="col col-md-12">
@@ -311,22 +317,22 @@
 							<div class="row">
 								<div class="col-xs-12 col-md-3">
 									<a href="#" class="thumbnail">
-										<img src="_/images/honda/honda1.jpg" alt="...">
+										<img src="_/images/bacungan/river1.jpg" alt="...">
 									</a>
 								</div>
 								<div class="col-xs-12 col-md-3">
 									<a href="#" class="thumbnail">
-										<img src="_/images/honda/honda2.jpg" alt="...">
+										<img src="_/images/bacungan/river2.jpg" alt="...">
 									</a>
 								</div>
 								<div class="col-xs-12 col-md-3">
 									<a href="#" class="thumbnail">
-										<img src="_/images/honda/honda3.jpg" alt="...">
+										<img src="_/images/bacungan/river3.jpg" alt="...">
 									</a>
 								</div>
 								<div class="col-xs-12 col-md-3">
 									<a href="#" class="thumbnail">
-										<img src="_/images/honda/honda4.jpg" alt="...">
+										<img src="_/images/bacungan/river4.jpg" alt="...">
 									</a>
 								</div>
 							</div>
@@ -336,6 +342,7 @@
 						</div>
 					</div>
 				</div>
+				<div class="col-xs-12" style="height:20px;"></div>
 				<div class="col-md-12">
 					<div class="col-xs-12 col-md-12 tour-package" style="text-align: left;">
 						<div class="col col-md-12">
@@ -353,22 +360,22 @@
 							<div class="row">
 								<div class="col-xs-12 col-md-3">
 									<a href="#" class="thumbnail">
-										<img src="_/images/honda/honda1.jpg" alt="...">
+										<img src="_/images/elnido/elnido1.jpg" alt="...">
 									</a>
 								</div>
 								<div class="col-xs-12 col-md-3">
 									<a href="#" class="thumbnail">
-										<img src="_/images/honda/honda2.jpg" alt="...">
+										<img src="_/images/elnido/elnido2.jpg" alt="...">
 									</a>
 								</div>
 								<div class="col-xs-12 col-md-3">
 									<a href="#" class="thumbnail">
-										<img src="_/images/honda/honda3.jpg" alt="...">
+										<img src="_/images/elnido/elnido3.jpg" alt="...">
 									</a>
 								</div>
 								<div class="col-xs-12 col-md-3">
 									<a href="#" class="thumbnail">
-										<img src="_/images/honda/honda4.jpg" alt="...">
+										<img src="_/images/elnido/elnido4.jpg" alt="...">
 									</a>
 								</div>
 							</div>
