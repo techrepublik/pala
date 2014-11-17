@@ -158,3 +158,10 @@ div.hr {
 div.hr.compact {
 	margin-top: 10px 0 10px;
 }
+.div-credits{
+	margin: 10px;
+	padding: 5px;
+	text-align: left;
+	font-style: italic;
+	font-size: 9px;
+}

@@ -88,7 +88,7 @@ $(document).ready(function(){
     to_show.slideToggle('slow');
     var caption = $(this).text();
     if (caption == 'read more...'){
-      $(this).text('hide...');
+      $(this).text('hide details...');
     } else {
       $(this).text('read more...'); 
     }

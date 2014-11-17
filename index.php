@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="_/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="_/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="_/css/custom.css">
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -29,7 +30,7 @@
 
       <div class="container" style="margin-top: 20px">
         <div id="accomodation" class="row">
-          <h1>Experience <strong class="font-color-gn">Fun</strong> and the <strong class="font-color-gn">Luxury</strong> of the House while at <strong class="font-color-gn">Palawan!</strong></h1>
+          <h1>Experience <strong class="font-color-gn">Fun</strong> and the <strong class="font-color-gn">Luxury</strong> of the House while in <strong class="font-color-gn">Palawan!</strong></h1>
         </div> <!-- end space -->
         <br>
         <?php include("page/accomodation.php"); ?>
