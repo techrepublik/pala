@@ -6,7 +6,7 @@
 	<div class="col-md-12">
 		<div class="row">
 			<div class="col-md-6">
-				<div class="col-xs-12 col-md-12 tour-package" style="text-align: left; background: #ffffff";>
+				<div class="col-xs-12 col-md-12 tour-package div-rounded-corner" style="text-align: left; background: #ffffff";>
 					<div class="col col-md-12">
 						<h4><strong>City Tour</strong> (Php 600.00/pax)</h4>
 						<p class="p-format">Puerto Princesa City, a tropical paradise with a bustling urban center perfect for business
@@ -22,22 +22,22 @@
 						<div class="row">
 							<div class="col-xs-12 col-md-3">
 								<a href="#" class="thumbnail">
-									<img src="_/images/city/city1.jpg" alt="...">
+									<img src="_/images/city/city1.JPG" alt="...">
 								</a>
 							</div>
 							<div class="col-xs-12 col-md-3">
 								<a href="#" class="thumbnail">
-									<img src="_/images/city/city2.jpg" alt="...">
+									<img src="_/images/city/city2.JPG" alt="...">
 								</a>
 							</div>
 							<div class="col-xs-12 col-md-3">
 								<a href="#" class="thumbnail">
-									<img src="_/images/city/city3.jpg" alt="...">
+									<img src="_/images/city/city3.JPG" alt="...">
 								</a>
 							</div>
 							<div class="col-xs-12 col-md-3">
 								<a href="#" class="thumbnail">
-									<img src="_/images/city/city4.jpg" alt="...">
+									<img src="_/images/city/city4.JPG" alt="...">
 								</a>
 							</div>
 						</div>
@@ -109,7 +109,7 @@
 					<div class="div-credits">credits to gopalawan.travel.</div>
 				</div>
 				<div class="col-xs-12" style="height:20px;"></div>
-				<div class="col-xs-12 col-md-12 tour-package" style="text-align: left; background: #ffffff;">
+				<div class="col-xs-12 col-md-12 tour-package div-rounded-corner" style="text-align: left; background: #ffffff;">
 					<div class="col col-md-12">
 						<h4><strong>Honday Bay Island Hopping</strong> (Php 1,300.00/pax)</h4>
 						<p class="p-format">Just 45 minutes north of the city proper, hop onto a boat and go island hopping at Honda Bay 
@@ -127,7 +127,7 @@
 							</div>
 							<div class="col-xs-12 col-md-3">
 								<a href="#" class="thumbnail">
-									<img src="_/images/honda/honda2.jpg" alt="...">
+									<img src="_/images/honda/honda2.JPG" alt="...">
 								</a>
 							</div>
 							<div class="col-xs-12 col-md-3">
@@ -223,7 +223,7 @@
 				</div>
 			</div> <!-- end of col 1 -->
 			<div class="col-md-6">
-				<div class="col-xs-12 col-md-12 tour-package" style="text-align: left; background: #ffffff;">
+				<div class="col-xs-12 col-md-12 tour-package div-rounded-corner" style="text-align: left; background: #ffffff;">
 					<div class="col col-md-12">
 						<h4><strong>Dos Palmas Day Tour</strong> (Php 2,000.00/pax)</h4>
 						<p class="p-format"><strong>Dos Palmas Island Resort & Spa is a 20 hectare private island</strong> nestled in the Tropical waters of Honda Bay Island in Puerto Princesa. The area has a rich marine ecosystem, with hectares of mangroves and forests on the south and kilometers of beautiful coral reef, surrounding the island.</p>
@@ -309,7 +309,7 @@
 					<div class="div-credits">credits to gopalawan.travel.</div>
 				</div>
 				<div class="col-xs-12" style="height:20px;"></div>
-				<div class="col-xs-12 col-md-12 tour-package" style="text-align: left; background: #ffffff;">
+				<div class="col-xs-12 col-md-12 tour-package div-rounded-corner" style="text-align: left; background: #ffffff;">
 					<div class="col col-md-12">
 						<h4><strong>Estrella Falls</strong> (Php 1,400.00/pax)</h4>
 						<p class="p-format">Only a 2 hour drive away from the city of Puerto Princesa, this nature's beauty offers you a natural pool with cool and refreshing water, surrounded by huge trees and rocks. </p>
@@ -392,7 +392,7 @@
 					<div class="div-credits">credits to lagalog.com.</div>
 				</div>
 				<div class="col-xs-12" style="height:20px;"></div>
-				<div class="col-xs-12 col-md-12 tour-package" style="text-align: left; background: #ffffff;">
+				<div class="col-xs-12 col-md-12 tour-package div-rounded-corner" style="text-align: left; background: #ffffff;">
 					<div class="col col-md-12">
 						<h4><strong>El Nido</strong> (Php 9,500.00/pax - 4D3N)</h4>
 						<p class="p-format">Discover the <em>amazing rock formations and hidden beaches</em> that have given inspiration to <strong>Alex Garland's novel "The Beach"</strong> which was written while the author was in El Nido and has been made into a major motion picture starring Leonardo Di Caprio

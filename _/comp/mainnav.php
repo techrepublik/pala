@@ -1,6 +1,6 @@
 <!-- main_nav.php -->
-<nav class="navbar navbar-default navbar-static-top main-nav" role="navigation">
-	<div class="container">
+<nav class="navbar navbar-default navbar-static-top main-nav div-rounded-corner" role="navigation">
+	<div class="container" >
 		<div class="navbar-header">
 			<button class="navbar-toggle collapsed" aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" type="button">
 				<span class="sr-only">Toggle navigation</span>

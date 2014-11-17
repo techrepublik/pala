@@ -1,4 +1,4 @@
-<div class="row div-bg">
+<div class="row div-bg div-rounded-corner">
 	<div class="col col-lg-12">
 		<h3 class="font-color-wh"><strong class="font-color-gn">Accomodation</strong> like no other..</h3>
 		<br/>

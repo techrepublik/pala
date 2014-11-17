@@ -83,8 +83,12 @@ header.container:hover {
 	color: #66cc66;
 	font-size: 0.9em;
 }
-#body{
-	font-family: 'Ubuntu', sans-serif;
+.body-font{
+	font-family: "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
 }
 .body-bg{
 	background: #f8f8f8;
@@ -172,4 +176,10 @@ div.hr.compact {
 	font-family: 'Tangerine', sans-serif;
 	font-size: 48px;
 	font-weight: 400;
+}
+.div-rounded-corner{
+	border-bottom-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-top-right-radius:10px;
+	border-top-left-radius:10px;
 }
