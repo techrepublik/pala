@@ -423,7 +423,7 @@ From the towering marble cliffs and enchanting lagoons to its white sandy beache
 						</div>
 						<p class="p-format">
 						 <strong>National Geographic Traveler's magazine</strong>, has chosen El Nido as one of the <em>best travel destinations in the world.</em>
-Recently, The film <em><strong>"Bourne Legacy"</strong> was shot and filmed in the islands of Dilumacad and Matinloc. El Nido Tour C : Hidden Beaches Tour is truly a world famous location..</p>
+Recently, The film <em><strong>"Bourne Legacy"</strong></em> was shot and filmed in the islands of Dilumacad and Matinloc. El Nido Tour C : Hidden Beaches Tour is truly a world famous location..</p>
 					</div>
 					<div class="col col-md-12 pull-left">
 						<span><a id="dolphin_btn" class="btn btn-warning btn-xs toggle-show">read more...</a></span>

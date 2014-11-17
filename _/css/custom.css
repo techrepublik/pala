@@ -83,6 +83,9 @@ header.container:hover {
 	color: #66cc66;
 	font-size: 0.9em;
 }
+#body{
+	font-family: 'Ubuntu', sans-serif;
+}
 .body-bg{
 	background: #f8f8f8;
 }
@@ -164,4 +167,9 @@ div.hr.compact {
 	text-align: left;
 	font-style: italic;
 	font-size: 9px;
+}
+.carousel-caption-style{
+	font-family: 'Tangerine', sans-serif;
+	font-size: 48px;
+	font-weight: 400;
 }

@@ -9,7 +9,6 @@
 	        +Palanca+Rd%2C+Puerto+Princesa%2C+Palawan!3m2!1d9.7507599!2d118.75339249999999!5e0!3m2!1sen!2sph!
 	        4v1412288223608&amp;amp;wmode=transparent" width="100%" height="430" frameborder="0"></iframe> 
 	    </div>
-	        </p> 
 	        <h4>The Julieta's Pension House (JPH)</h4>
 	        <p>wescom road, brgy. san miguel,&nbsp;puerto princesa city<br>palawan, philippines</p>
 	        <p>tel / fax #: (048) 433 - 0374<br>mobile # &nbsp;: +63 9286535639 - smart; +63 9234140054 - sun; +63 9369971884 - globe</p>
