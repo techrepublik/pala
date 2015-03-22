@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Julieta's Pension House - Home</title>
+		<link rel="stylesheet" type="text/css" href="_/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="_/css/font-awesome.min.css">
+
+	</head>
+<body id="home">
+	<nav class="navbar navbar-default navbar-static-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<div class="navbar-brand">
+					<a href="mailto:info@julietaspensionhouse.com.ph"><i class="fa fa-envelope"></i>info@julietaspensionhouse.com.ph</a>
+					/
+					<a href="tel:048330374"><i class="fa fa-phone"></i><i class="fa fa-fax"></i>(048) 433 - 0374</span>
+				</div>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#" class="fa fa-twitter"></a></li>
+					<li><a href="#" class="fa fa-facebook"></a></li>
+					<li><a href="#" class="fa fa-dribbble"></a></li>
+					<li><a href="#" class="fa fa-soundcloud"></a></li>
+					<li><a href="#" class="fa fa-google-plus"></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<section class="container">
+		<header>
+			<nav class="navbar navbar-default navbar-static-top" role="navigation">
+				<div class="container">
+					<div class="navbar-header">
+						<button class="navbar-toggle collapsed" aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" type="button">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a href="#" class="navbar-brand">LOGO</a>
+					</div>
+					<div id="navbar" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li class="active"><a href="#">Home</a></li>
+							<li><a href="#">Accomodation</a></li>
+							<li><a href="#">Services</a></li>
+							<li><a href="#">Booking</a></li>
+							<li><a href="#">Palawan Tour</a></li>
+							<li><a href="#">Policy</a></li>
+							<li><a href="#">Contact</a></li>
+							<li><a href="#">About Us</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<div class="slide_wrapper">
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<img src="..." alt="...">
+						<div class="carousel-caption">
+						...
+						</div>
+					</div>
+					<div class="item">
+						<img src="..." alt="...">
+						<div class="carousel-caption">
+						...
+						</div>
+					</div>
+				</div>
+
+				<!-- Controls -->
+				<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+		<div class="content row">
+			<section class="main col col-lg-8">
+				
+			</section><!-- main -->
+			<section class="sidebar col col-lg-4">
+				
+			</section><!-- sidebar -->
+		</div><!-- content -->
+	</section><!-- container -->
+</body>
+</html>

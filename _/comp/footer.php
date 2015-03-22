@@ -3,7 +3,7 @@
 		<div class="row">
 	        <div class="col-xs-6 col-sm-6 col-lg-3">
 	        	<a href="#">
-	        		<img src="_/images/jph-jph.png" width="180px" height="160px">
+	        		<img src="_/images/JPH-JPH.png" width="180px" height="160px">
 	        	</a>
 		    </div>
 		    <div class="col-xs-6 col-sm-6 col-lg-3">

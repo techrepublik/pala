@@ -27,7 +27,7 @@
 							<td>
 								<div class="row">
 									<div class="col-md-12">
-										<b>PHP <span class="rate">999,999.00</span></b>
+										<b>PHP <span class="rate">5,000.00</span></b>
 									</div>
 								</div>
 								<div class="row">
@@ -60,7 +60,7 @@
 							<td>
 								<div class="row">
 									<div class="col-md-12">
-										<b>PHP <span class="rate">999,999.00</span></b>
+										<b>PHP <span class="rate">2,500.00</span></b>
 									</div>
 								</div>
 								<div class="row">

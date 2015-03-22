@@ -34,7 +34,8 @@ $(document).ready(function(){
   });
 
   $('#book_me').on('click', function(){
-    if($('#arrival').val().length > 0 && $('#departure').val().length > 0){
+    if($('#arrival').val().length > 0 && $('#departure').val().length > 0 && new Date($('#arrival').val()) < new Date($('#departure').val())){
+      $('#booking').modal('show');
       $('#booking').find('.modal-title').html($('#arrival').val() + ' - ' + $('#departure').val());
     }
 
