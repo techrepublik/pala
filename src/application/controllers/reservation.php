@@ -30,7 +30,7 @@ class Reservation extends CI_Controller
             $this->form_validation->set_rules('contact_no', 'Contact Number', 'trim|required');
             $this->form_validation->set_rules('total_amount', 'Total amount', 'required');
 
-		    $room_types = $this->db->get('room_types');
+		    $room_types = $this->db->get('room_types_db');
             foreach($room_types->result() as $type)
             {
                 $avalaible_rooms_cnt = $this->db->where(array('type_id' => $type->id, 'status' => 0))->from('rooms')->count_all_results();
@@ -68,7 +68,7 @@ class Reservation extends CI_Controller
                 {
                     if ($room_reservations[$type->id] > 0)
                     {
-                        $rooms = $this->db->order_by('id', 'asc')->get_where('rooms', array('type_id' => $type->id, 'status' => 0));
+                        $rooms = $this->db->order_by('id', 'asc')->get_where('rooms_db', array('type_id' => $type->id, 'status' => 0));
                         $rooms_data = $rooms->result();
                         for($i = 0; $i < $room_reservations[$type->id]; $i++)
                         {
@@ -77,8 +77,8 @@ class Reservation extends CI_Controller
                             $room_rsv->reservation_id = $my_reservations->id;
                             $room_rsv->room_id = $rooms_data[$i]->id;
                             $room_rsv->save();
-                            
-                            $room = new Db_table('rooms');
+
+                            $room = new Db_table('rooms_db');
 	                        $room->generate_fields();
                             $room->load($rooms_data[$i]->id);
                             $room->status = 1;
@@ -122,7 +122,7 @@ class Reservation extends CI_Controller
                 $data['date'] = date('d F Y', strtotime($row->date_added));
                 $data['checkin'] = date('d F Y', strtotime($row->check_in));
                 $data['checkout'] = date('d F Y', strtotime($row->check_out));
-                $query = $this->db->select('rooms.number, rooms.custom_rate, room_types.type_name, room_types.rate')->join('rooms','rooms.id = room_reservations.room_id')->join('room_types','room_types.id = rooms.type_id')->get_where('room_reservations', array('reservation_id' => $row->id));
+                $query = $this->db->select('rooms_db.number, rooms_db.custom_rate, room_types.type_name, room_types.rate')->join('rooms_db','rooms_db.id = room_reservations.room_id')->join('room_types','room_types.id = rooms_db.type_id')->get_where('room_reservations', array('reservation_id' => $row->id));
                 $data['room_reservations'] = $query->result();
     		    $module['content'] = $this->load->view('template/rsr-summary', $data, TRUE);
                 $module['title'] = 'Reserve';

@@ -5,6 +5,10 @@ body {
     position: relative;
 }
 
+#ui-datepicker-div {
+	top: 55px !important;
+}
+
 .nav.navbar-nav.navbar-right a {
 	color: #fff;
 }
