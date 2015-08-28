@@ -1,9 +1,48 @@
 // custom.js --
 $(document).ready(function(){
+
+    $('#print_now').on('click', function(){
+        $('#printable').show().printElement();
+    });
+
+  $('select[name^="room_reservations"]').on('change', function(){
+        console.log('Test');
+        get_subtotal($(this).closest('.main_row'));
+        get_total();
+        var toggle = false;
+        $('select[name^="room_reservations"]').each(function(){
+            if($(this).val() != 0){
+               toggle = true;
+            }
+        });
+        if(toggle){
+           $('#reserve').prop('disabled', false);
+        } else {
+           $('#reserve').prop('disabled', 'disabled');
+        }
+  });
+
+    function get_subtotal(row){
+      var rate_per_room = parseFloat(removeCommas($(row).find('.rate').html()));
+      var number_of_rooms = parseFloat($(row).find('select').val());
+      var subtotal = rate_per_room * number_of_rooms;
+      $(row).find('span.subtotal').html((subtotal % 1 != 0 ? addCommas(subtotal) : addCommas(subtotal.toFixed(2))));
+      get_total();
+    }
+
+    function get_total(){
+      var total = 0;
+      $('span.subtotal').each(function(){
+        total += ( parseFloat(removeCommas($(this).html())) > 0 ) ? parseFloat(removeCommas($(this).html())) : 0;
+      });
+      $('span.total').html((total % 1 != 0 ? addCommas(total) : addCommas(total.toFixed(2))));
+      $('#total_amount').val(total);
+    }
+
   $('.toggle-show').click(function(){
     console.log('adfsdf');
   });
-  console.log('Loded');
+
   $('.thumbnail').on('click', function(e){
     e.preventDefault();
     var src = $(this).find('img').prop('src');

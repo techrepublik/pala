@@ -42,10 +42,10 @@
 		<div id="booking-panel" class="panel panel-default">
 			<div class="panel-heading">Welcome and Book Now!</div>
 			<div class="panel-body">
-				<form class="form-horizontal">
+				<form class="form-horizontal" action="src/reservation/" id="carousel-form" method="POST">
 					<div class="form-group col col-sm-6">
 						<div class="row input-group input-group-sm">
-							<input type="text" name="arrival" id="arrival" class="jquery-ui-datepicker form-control" placeholder="Set Arrival date" />
+							<input type="text" name="arrival" id="arrival" class="jquery-ui-datepicker form-control" placeholder="Set Arrival date" readonly="readonly" />
 							<span class="arrival input-group-btn ">
 								<button class="btn btn-default" type="button">
 									<span class="glyphicon glyphicon-calendar"></span>
@@ -55,7 +55,7 @@
 					</div>
 					<div class="form-group col col-sm-6 pull-right">
 						<div class="row input-group input-group-sm">
-							<input type="text" name="departure" id="departure" class="jquery-ui-datepicker form-control" placeholder="Set departure date" />
+							<input type="text" name="departure" id="departure" class="jquery-ui-datepicker form-control" placeholder="Set departure date" readonly="readonly" />
 							<span class="departure input-group-btn">
 								<button class="btn btn-default" type="button">
 									<span class="glyphicon glyphicon-calendar"></span>
@@ -63,19 +63,9 @@
 							</span>
 						</div>
 					</div>
-					<div class="form-group col col-xs-6">
-						<div class="row input-group input-group-sm">
-							<input type="text" name="single_room" id="single_room" class="form-control" placeholder="Double-Sized Bed" />
-						</div>
-					</div>
-					<div class="form-group col col-xs-6 pull-right">
-						<div class="row input-group input-group-sm">
-							<input type="text" name="double_room" id="double_room" class="form-control" placeholder="Twin Bed" />
-						</div>
-					</div>
 					<br/>
 					<div class="form-group">
-						<button type="button" class="btn btn-warning btn-sm pull-right" id="book_me" data-toggle="modal" data-target="">
+						<button type="submit" class="btn btn-warning btn-sm pull-right" id="book_me">
 							Book Me
 						</button>
 					</div>

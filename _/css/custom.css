@@ -5,6 +5,11 @@
     color: #66cc66;
 }
 
+input[readonly] {
+  background-color: white !important;
+  cursor: text !important;
+}
+
 .navbar-header {
 	color: #66cc66;
 }

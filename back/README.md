@@ -1,4 +1,0 @@
-pala
-====
-
-palawan
